@@ -1,0 +1,67 @@
+.chatbot{
+    height: 100vh;
+    background-color: #aed4ff;
+}
+.chat-card{
+    background-color: #ffffff;
+    height: 80%;
+    box-shadow: 0px 0px 2pc 0 grey;;
+}
+.bot-name{
+    background-color: #b253c7;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.bot-name span{
+    letter-spacing: 2px;
+}
+.chat-body{
+    padding-top: 2rem;
+    z-index: 1;
+    overflow: auto;
+}
+.message span{
+    padding: 1rem;
+    width: fit-content;
+    max-width: 80%;
+}
+.in{
+    border-radius: 0.75rem;
+    border-top-left-radius: 0;
+    background-color: #b253c76e;
+    margin-left: 1rem;
+}
+.out{
+    border-radius: 0.75rem;
+    border-bottom-right-radius: 0;
+    background-color: #f1f1f1;
+    margin-right: 1rem;
+}
+.chat-input{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    gap: 10px;
+    box-shadow: 0px 0px 10px 0px grey;   
+    background-color: #f1f1f1;
+    z-index: 11;
+}
+.chat-input textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    background: transparent;
+    font-weight: 600;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+.chat-input a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #b253c7;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    letter-spacing: 2px;
+}
